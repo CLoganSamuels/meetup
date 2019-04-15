@@ -9,5 +9,5 @@ phases:
       - echo nothing
   build:
     commands:
-      - apt-get install -y nodejs npm
+      - ls
 
