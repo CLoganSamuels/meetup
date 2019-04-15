@@ -4,10 +4,10 @@ phases:
   install:
     commands:
       - echo install
-  pre_build:
-    commands:
-      - echo nothing
   build:
     commands:
-      - ls
-
+      - echo Zipping!
+      - zip -r project.zip *
+artifacts:
+  files:
+    - project.zip
