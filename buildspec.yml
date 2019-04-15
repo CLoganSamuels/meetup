@@ -6,8 +6,7 @@ phases:
       - echo install
   build:
     commands:
-      - echo Zipping!
-      - zip -r project.zip *
+      - ls ../
 artifacts:
   files:
-    - project.zip
+    - *
